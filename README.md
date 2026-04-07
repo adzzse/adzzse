@@ -3,7 +3,7 @@
 Here is some of my progress:
 </p>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Adzzse&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=adzzse)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Table of Contents
 
