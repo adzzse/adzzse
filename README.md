@@ -20,8 +20,17 @@
     <li>Current project: EvidencePilot. Languages: Vietnamese, English.</li>
     <li>Outside code: webtoons, games, and sleep.</li>
     <li>Side quest: creating interesting bugs.</li>
-    <li>Public GitHub stats (2026-11-03): 16 repos, 25 owned/contributed repos, 1 stars, 1 followers. Commits and lines of code: NULL.</li>
+<!-- metrics:start -->
+    <li>Public GitHub stats (2026-11-03): 16 repos, 25 owned/contributed repos, 1 stars, 1 followers. Commits: 1,183. Lines of code: 239,866 (379,516++, 139,650--).</li>
+    <!-- metrics:end -->
   </ul>
 </details>
 
 <!-- Character portrait supplied by the profile owner. -->
+
+<!-- Metrics updater adapted from https://github.com/nizarelidrysy/nizarelidrysy/blob/main/today.py.
+Public owned/collaborated repositories only; authored default-branch commits and additions/deletions
+are counted per repository, as in the reference. Contributions present in multiple forks can overlap.
+The Action checks daily at 00:17 UTC (07:17 Vietnam); it writes/commits only when authored
+commit signatures change. Uptime, dates, stars or followers alone never trigger an update.
+A failed API request leaves the previous successful snapshot intact. No custom secret is required. -->

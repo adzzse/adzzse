@@ -1,0 +1,49 @@
+name: Update Profile Metrics
+
+on:
+  schedule:
+    # 07:17 Vietnam time; avoid the busy start of the hour.
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+
+      - name: Check updater behavior
+        run: python -m unittest discover -s tests -v
+
+      - name: Check for authored commit changes
+        id: metrics
+        env:
+          ACCESS_TOKEN: ${{ github.token }}
+          USER_NAME: ${{ github.repository_owner }}
+        run: python -u today.py
+
+      - name: Commit changed metrics
+        if: steps.metrics.outputs.changed == 'true'
+        run: |
+          git add -- README.md assets/profile-dark.svg assets/profile-light.svg cache/metrics.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m "chore: update profile metrics"
+          git push
