@@ -1,55 +1,27 @@
-<img src="https://github.com/adzzse/README/blob/main/Banner.svg"/>
-<p>A student at <a href="https://hcmuni.fpt.edu.vn">FPT HCMC University</a>, majoring in Computer Science. 😊</br>
-Here is some of my progress:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+  <img src="assets/profile-light.svg" alt="Hoang Anh Do (adzzse) — backend and API developer. Windows / Omarchy. Java, C#, Python, TypeScript. Webtoons, games, and interesting bugs. Unicode Braille character portrait." width="1024">
+</picture>
+
+<p align="center">
+  <a href="https://adzzse.github.io/Adzzse-portfolio/">Portfolio</a> ·
+  <a href="mailto:hoanganhfof@gmail.com">Email</a> ·
+  <a href="https://github.com/adzzse/EvidencePilot_models">EvidencePilot models</a> ·
+  <a href="https://github.com/adzzse/GardenProfitTracker">Garden Profit Tracker</a>
 </p>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=adzzse)](https://github.com/anuraghazra/github-readme-stats)
+<details>
+  <summary>About me · text version</summary>
+  <p>I'm Hoang Anh Do (adzzse), focused on backend and API development.</p>
+  <ul>
+    <li>Code: Java, C#, Python, TypeScript.</li>
+    <li>Setup: Windows / Omarchy, VS Code, PowerShell.</li>
+    <li>Education: FPT University HCMC, Computer Science.</li>
+    <li>Current project: EvidencePilot. Languages: Vietnamese, English.</li>
+    <li>Outside code: webtoons, games, and sleep.</li>
+    <li>Side quest: creating interesting bugs.</li>
+    <li>Public GitHub stats (2026-11-03): 16 repos, 25 owned/contributed repos, 1 stars, 1 followers. Commits and lines of code: NULL.</li>
+  </ul>
+</details>
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Top Language](#top-language)
-- [Java Setup](#java-setup)
-- [C# Setup](#csharp-setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
-
-## Introduction
-
-I'm learning about code. On the way to becoming a code ✨MASTER✨, I also create some impressive bugs. Here's how I started it:
-
-## Top Language
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Adzzse&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
-
-
-## Java Setup
-
-1. Download IDE: [Netbeans](https://netbeans.apache.org/front/main/), [IntelliJ IDEA](https://www.jetbrains.com/idea/),... or Source-code editor: [Visual Studio Code](https://code.visualstudio.com/)
-1. Install the Java JDK by following the instructions on the [official Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Set up the Java environment variables.
-3. Open the project using your preferred Java IDE.
-
-## Csharp Setup
-
-1. Install [Visual Studio](https://visualstudio.microsoft.com/), selecting the necessary workload for C# development.
-2. Open the project using Visual Studio or any C#-compatible editor.
-
-## Contributing
-
-Contributions are welcome! See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details on how to contribute to this project.
-
-## Contact
-
-You can find me at:
-- Email: hoanganhfof@gmail.com.
-- GitHub: [GitHub](https://github.com/adzzse).
-- Facebook: [Facebook](https://www.facebook.com/Adzzse/).
-
-Thank you.
-
-<!---
-Adzzse/Adzzse is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!-- Character portrait supplied by the profile owner. -->
