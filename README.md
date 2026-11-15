@@ -21,7 +21,7 @@
     <li>Outside code: webtoons, games, and sleep.</li>
     <li>Side quest: creating interesting bugs.</li>
 <!-- metrics:start -->
-    <li>Public GitHub stats (2026-11-09): 17 repos, 26 owned/contributed repos, 1 stars, 1 followers. Commits: 1,197. Lines of code: 245,931 (386,966++, 141,035--).</li>
+    <li>Public GitHub stats (2026-11-15): 17 repos, 26 owned/contributed repos, 1 stars, 1 followers. Commits: 1,201. Lines of code: 247,750 (389,066++, 141,316--).</li>
     <!-- metrics:end -->
   </ul>
 </details>
